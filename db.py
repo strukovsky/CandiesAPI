@@ -13,4 +13,12 @@ class User(Base):
     username = Column(String, unique=True)
 
 
+class ChupaChups(Base):
+    __tablename__ = "chupachupses"
+    id = Column(Integer, unique=True, primary_key=True, autoincrement=True)
+    diameter = Column(Integer)
+    flavor = Column(String)
+    stick_size = Column(Integer)
+
+
 Base.metadata.create_all()
