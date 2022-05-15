@@ -1,0 +1,8 @@
+POST http://127.0.0.1:8000/chupachupses/
+Content-Type: application/json
+
+{
+  "flavor": "strawberry",
+  "diameter": 10,
+  "stick_size": 10
+}
